@@ -1,8 +1,6 @@
 [workspace]
 resolver = "2"
-members = [
-    "crates/*"
-]
+members = ["crates/*"]
 
 [workspace.package]
 version = "0.2.0-dev"
@@ -22,7 +20,7 @@ tokio = "1.37.0"
 toml = "0.8.13"
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
-web-rwkv = "0.8.14"
+web-rwkv = "0.8.17"
 wgpu = "0.20.0"
 minmodmon-agent = { path = "./crates/minmodmon-agent" }
 minmodmon-dashboard = { path = "./crates/minmodmon-dashboard" }
