@@ -1257,7 +1257,7 @@ dependencies = [
 
 [[package]]
 name = "minmodmon-agent"
-version = "0.2.0-dev"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "fastrand",
@@ -1276,7 +1276,7 @@ dependencies = [
 
 [[package]]
 name = "minmodmon-dashboard"
-version = "0.2.0-dev"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "minmodmon-agent",
@@ -1288,7 +1288,7 @@ dependencies = [
 
 [[package]]
 name = "minmodmon-server"
-version = "0.2.0-dev"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "minmodmon-agent",
